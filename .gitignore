@@ -1,0 +1,37 @@
+# ==============================================================================
+# ASSET COMMERCIALI E DATI PRIVATI
+# ==============================================================================
+SEC-BENCH-210.zip
+*.zip
+build/
+
+# Dataset completi a pagamento
+data/*full*.jsonl
+data/dataset_security*.jsonl
+
+# Script di generazione e pipeline proprietaria
+generate_dataset.py
+scripts/
+utils/
+results/
+
+# Credenziali
+.env
+.env.local
+*.env
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+*.iml
+out/
+
+# Sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,51 @@
+SEC-BENCH COMMERCIAL DATASET & EVALUATION SUITE LICENSE
+Version 1.0 - 2026
+
+IMPORTANT: PLEASE READ THIS LICENSE AGREEMENT CAREFULLY BEFORE USING,
+DOWNLOADING, OR INTEGRATING THE SEC-BENCH-210 DATASET AND EVALUATION HARNESS.
+
+1. DEFINITIONS
+"Licensor" refers to the creator and copyright holder of SEC-BENCH-210.
+"Dataset" refers to all data artifacts, including but not limited to
+'security_eval_suite_full.jsonl', 'dataset_security_chatml.jsonl', and associated code snippets.
+"Evaluation Harness" refers to the evaluation and scoring tooling ('run_eval.py', 'scorer.py').
+"Work" refers collectively to the Dataset, Evaluation Harness, documentation, and baseline results.
+"Licensee" refers to the individual or legal entity purchasing or lawfully obtaining the Work.
+
+2. GRANT OF LICENSE (PERMITTED USE)
+Subject to the terms and conditions of this Agreement, Licensor grants Licensee a
+non-exclusive, perpetual, worldwide, non-transferable commercial license to:
+  a) Use the Work internally for benchmarking, testing, and auditing AI models and LLM agents.
+  b) Use the Work to fine-tune, train, distill, align, or evaluate proprietary and commercial
+     machine learning models (including commercial weights, LoRA adapters, and embeddings).
+  c) Publish derived benchmark scores, evaluation leaderboards, and technical papers referencing
+     the performance of models against SEC-BENCH-210.
+  d) Integrate models fine-tuned with the Dataset into commercial software products, SaaS
+     platforms, and developer tools without paying royalties.
+
+3. RESTRICTIONS (PROHIBITED USE)
+Licensee expressly agrees NOT to:
+  a) Resell, redistribute, sublicense, lease, rent, or publicly host the raw Dataset or any
+     substantial portion thereof in source format (e.g., JSONL, CSV, Parquet).
+  b) Include raw test cases or reference answers in public repositories, open data registries,
+     or publicly queryable web interfaces.
+  c) Use the Dataset to construct, train, or evaluate a competing commercial security dataset
+     product offered for sale as raw data.
+
+4. DUAL-USE & DEFENSIVE SECURITY DISCLAIMER
+The Work contains software security vulnerabilities, theoretical Proof-of-Concept (PoC) exploits,
+and remediation patches intended strictly for:
+  - Software development education;
+  - Automated secure code review;
+  - Defensive security evaluation of AI code assistants.
+The Licensor strictly prohibits using the code samples for unauthorized network penetration,
+exploitation of third-party systems, malware creation, or any unlawful activity.
+Licensee assumes full responsibility for compliance with all applicable local and international
+cybersecurity and computer crime regulations.
+
+5. NO WARRANTY & LIMITATION OF LIABILITY
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+AND NON-INFRINGEMENT. IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES,
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
+OUT OF, OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
