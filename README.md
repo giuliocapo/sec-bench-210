@@ -1,3 +1,10 @@
+# SEC-BENCH-210
+
+
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Preview%20Dataset-yellow)](https://huggingface.co/datasets/giuliocapo/sec-bench-210-preview)
+[![Lemon Squeezy](https://img.shields.io/badge/Lemon%20Squeezy-Get%20Full%20Suite%20(210%20Scenarios)-green)](https://benchlabs-ai.lemonsqueezy.com/checkout/buy/465df194-1c91-4657-aa82-01295ff9ffdf)
+
+
 # SEC-BENCH-210: Multi-Language Application Security Evaluation Suite
 
 **SEC-BENCH-210** is an enterprise-grade benchmark and evaluation harness designed to systematically assess the code review, vulnerability detection, and remediation capabilities of Large Language Models (LLMs) and autonomous coding agents.
